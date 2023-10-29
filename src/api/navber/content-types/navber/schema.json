@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbers",
+  "info": {
+    "singularName": "navber",
+    "pluralName": "navbers",
+    "displayName": "Navber",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.nav-item"
+    }
+  }
+}

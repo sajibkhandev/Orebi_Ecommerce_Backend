@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_parts",
+  "info": {
+    "singularName": "footer-part",
+    "pluralName": "footer-parts",
+    "displayName": "Footer-Part",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.item"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon.icon"
+    }
+  }
+}
